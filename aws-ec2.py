@@ -69,7 +69,7 @@ else:
 
 DEFAULTS = {
     'ec2': {
-        'regions': ['us-gov-east-1', 'us-gov-west-1'],
+        'regions': ['us-east-1', 'us-west-1'],
         'destination_variable': 'PrivateDnsName',
         'vpc_destination_variable': 'PrivateIpAddress',
         'route53': False,
